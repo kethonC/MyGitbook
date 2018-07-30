@@ -1,0 +1,45 @@
+{
+    "title": "学习笔记",
+    "author": "cc",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "官网": "https://www.gitbook.com/"
+        }
+    },
+     "plugins": 
+     [
+         "theme-api",
+         "-sharing",
+         "splitter",
+         "anchor-navigation-ex",
+         "-fontsettings",
+         "tbfed-pagefooter"
+        ],
+    "pluginsConfig": {
+        "anchor-navigation-ex": {
+            "associatedWithSummary":true
+         },
+         "fontsettings": {
+            "theme": "white", 
+            "family": "serif", 
+            "size": 2         
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © cc 2018",
+            "modify_label": "该文件修订时间："
+        },
+        "sharing": {
+            "weibo": false,
+            "facebook": false,
+            "twitter": false,
+            "google": false,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                    "weibo", "instapaper"
+            ]
+        }
+    }
+}

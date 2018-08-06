@@ -4,4 +4,5 @@
 
 vm.$emit( event, arg ) //触发当前实例上的事件  
 
-vm.$on( event, fn );//监听event事件后运行 fn；   
+vm.$on( event, fn );//监听event事件后运行 fn； 
+

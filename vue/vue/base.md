@@ -15,3 +15,21 @@ vm.$on( event, fn );//监听event事件后运行 fn;
 :class="{'item-selected':item.selected}"
 ```
 
+<h2>v-for</h2>
+
+```javascript
+<div v-for="(index, item) in items"></div>
+```
+
+<h2>watch 对象</h2>
+
+```javascript
+    obj: {
+      handler: function(val, oldVal){
+          
+      },
+      deep: true,
+      immediate:true,
+    },
+```
+

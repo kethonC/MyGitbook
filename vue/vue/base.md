@@ -33,3 +33,12 @@ vm.$on( event, fn );//监听event事件后运行 fn;
     },
 ```
 
+<h2>v-model 指令</h2>
+
+```html
+<input v-model="sth" />
+<input :value="sth" @input="sth = $event.target.value" />
+```
+
+<h2>this.$set</h2>
+

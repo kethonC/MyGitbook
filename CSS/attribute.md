@@ -145,3 +145,19 @@ skew(x-angle,y-angle) |	定义沿着 X 和 Y 轴的 2D 倾斜转换。
 skewX(angle) |	定义沿着 X 轴的 2D 倾斜转换。	
 skewY(angle) |	定义沿着 Y 轴的 2D 倾斜转换。	
 perspective(n) |	为 3D 转换元素定义透视视图。
+
+
+<h2>伪类</h2>
+
+```css
+a:link {color: #FF0000}		/* 未访问的链接 */
+a:visited {color: #00FF00}	/* 已访问的链接 */
+a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+```
+
+> 提示：在 CSS 定义中，a:hover 必须被置于 a:link 和 a:visited 之后，才是有效的。  
+> 提示：在 CSS 定义中，a:active 必须被置于 a:hover 之后，才是有效的。  
+> 提示：伪类名称对大小写不敏感。  
+
+<h2>inline-block 有空隙</h2>
